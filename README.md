@@ -2,6 +2,12 @@
 
 Demo project to reproduce issue [#433](https://github.com/jacoco/jacoco/issues/433) in [jacoco](https://github.com/jacoco/jacoco).
 
+The issue can be reproduced by running the following from the command line:
+
+```
+./gradlew testDebugUnitTestCoverage -s
+```
+
 License
 -------
 
